@@ -3,13 +3,13 @@ repository: tomjoht/documentation-theme-jekyll
 output: web
 # this property is useful for conditional filtering of content that is separate from the PDF.
 
-topnav_title: Kanilea Docs
+topnav_title: Docs
 # this appears on the top navigation bar next to the home button
 
-site_title: Kanilea Docs
+site_title: Docs
 # this appears in the html browser tab for the site title (seen mostly by search engines, not users)
 
-company_name: Kanile`a 'Ukulele Copyright 2022 
+company_name: Kanile`a 'Ukulele
 # this appears in the footer
 
 github_editme_path: https://github.com/iokepasouza/KanileaDocs
