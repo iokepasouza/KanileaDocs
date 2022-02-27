@@ -4,7 +4,7 @@ topnav:
 - title: Topnav
   items:
     - title: GitHub
-      external_url: https://github.com/tomjoht/documentation-theme-jekyll
+      external_url: https://github.com/iokepasouza/KanileaDocs
     - title: News
       url: /news
 
@@ -12,9 +12,9 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Jekyll Help
+    - title: Kanilea Help
       folderitems:
-        - title: Jekyll Talk
+        - title: Email
           external_url: https://talk.jekyllrb.com
         - title: Jekyll documentation
           external_url: http://jekyllrb.com/docs/home/
