@@ -208,7 +208,6 @@ p.post-meta {font-size: 80%; color: #777;}
     border-left: 1px solid #dedede;
 }
 
-
 ul#results-container a {
     background-color: transparent;
 }
@@ -216,7 +215,6 @@ ul#results-container a {
 ul#results-container a:hover {
     color: black;
 }
-
 
 #search-demo-container a:hover {
     color: black;
@@ -265,7 +263,7 @@ div#toc ul li ul li::before {
 div#toc >ul::before {
     content: "Table of Contents";
     font-weight: 500;
-    color: #555;
+    color: #e4e4e4;
     text-align:center;
     margin-left:auto;
     margin-right:auto;

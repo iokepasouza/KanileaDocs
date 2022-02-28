@@ -61,7 +61,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #9f0000;
+    background-color: #9f000000;
     color: #e6e6e6;
 }
 
@@ -144,6 +144,6 @@ body {
     
 }
 .nav>li>a:focus, .nav>li>a:hover {
-    text-decoration: none;
-    background-color: #9f0000;
+    text-decoration: underline;
+    background-color: #9f000000;
 }
