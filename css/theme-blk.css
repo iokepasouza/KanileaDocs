@@ -139,3 +139,7 @@ body {
     color: #e6e6e6;
     white-space: nowrap;
 }
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #9f0000;
+}
