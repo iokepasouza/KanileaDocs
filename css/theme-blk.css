@@ -1,6 +1,6 @@
 .summary {
-    color: #808080;
-    border-left: 5px solid #ED1951;
+    color: #e6e6e6;
+    border-left: 5px solid #244766;
     font-size:16px;
 }
 
@@ -89,7 +89,7 @@ a.navbar-brand:hover {
     color: #ED1951 !important;
 }
 
-body.print h1 {color: #015CAE !important; font-size:28px !important;}
+body.print h1 {color: #75b6e7 !important; font-size:28px !important;}
 body.print h2 {color: #595959 !important; font-size:20px !important;}
 body.print h3 {color: #E50E51 !important; font-size:14px !important;}
 body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
@@ -124,6 +124,6 @@ body {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
+    color: #e6e6e6;
     background-color: #121212;
 }
