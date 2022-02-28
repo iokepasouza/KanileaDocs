@@ -18,11 +18,11 @@ h4 {color: #808080; }
 }
 
 .nav > li > a:hover {
-    background-color: #ED1951;
+    background-color: #808080;
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #ED1951;
+    background-color: #808080;
 }
 
 .nav li.thirdlevel > a {
@@ -58,7 +58,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-    background-color: #ED1951;
+    background-color: #4a4a4a;
     color: #e6e6e6;
 }
 
@@ -126,4 +126,16 @@ body {
     line-height: 1.42857143;
     color: #e6e6e6;
     background-color: #121212;
+}
+
+.dropdown-menu>li>a {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.42857143;
+    color: #e6e6e6;
+    white-space: nowrap;
 }
