@@ -38,8 +38,8 @@ a[data-toggle="tooltip"] {
 }
 
 .navbar-inverse {
-    background-color: #ED1951;
-    border-color: #ED1951;
+    background-color: #121212;
+    border-color: #404040;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
     color: white;
