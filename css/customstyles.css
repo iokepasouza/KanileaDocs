@@ -334,7 +334,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a {
-    color: #fff;
+    color: #e6e6e6;
     display: block;
     /*-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -369,7 +369,7 @@ background-color: #347DBE;
     font-size: 12px;
     line-height: 18px;
     padding: 2px 10px;
-    background-color: #f1f1f1;
+    background-color: #121212;
 }
 
 .nav > li > a {
@@ -538,7 +538,7 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
 }
 
 .navbar a:focus {
-    outline: 1px solid #fff;
+    outline: 1px solid #e6e6e6;
 }
 
 hr.faded {
@@ -617,7 +617,7 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: #FAFAFA;
+    background-color: #e6e6e6;
 }
 
 span.tagTitle {font-weight: 500;}
@@ -717,7 +717,7 @@ ol.series li {
 }
 
 #mysidebar .nav ul {
-    background-color: #FAFAFA;
+    background-color: #e6e6e6;
 }
 .nav ul.series li {
     list-style: decimal;
@@ -732,7 +732,7 @@ ol.series li {
 }
 
 .nav ul.series {
-    background-color: #FAFAFA;
+    background-color: #e6e6e6;
 }
 
 /*
@@ -855,7 +855,7 @@ span.soft {
     }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 990px) {s
     #mysidebar {
         position: relative;
     }
