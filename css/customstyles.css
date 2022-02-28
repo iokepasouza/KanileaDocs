@@ -334,7 +334,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a {
-    color: #333;
+    color: #fff;
     display: block;
     /*-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -390,12 +390,12 @@ ul#mysidebar {
     color: #248EC2;
     font-weight:bold;
     padding-left:20px;
-    background-color: whitesmoke !important;
+    background-color: #121212 !important;
 }
 
 
 .nav ul li a {
-    background-color: #FAFAFA;
+    background-color: #121212;
 }
 
 .nav li a {
@@ -403,11 +403,11 @@ ul#mysidebar {
 }
 
 .nav li a:hover {
-    background-color: #8D8D8D;
+    background-color: #121212;
 }
 
 .nav ul li a {
-    border-top:1px solid whitesmoke;
+    border-top:1px solid #121212;
     padding-left:10px;
 }
 /* end sidebar */
