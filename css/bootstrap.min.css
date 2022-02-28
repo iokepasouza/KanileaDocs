@@ -52,7 +52,7 @@ template {
 }
 
 a {
-    background-color: transparent
+    background-color: #121212
 }
 
 a:active,
@@ -1379,8 +1379,8 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333;
-    background-color: #fff
+    color: #fff;
+    background-color: #121212
 }
 
 button,

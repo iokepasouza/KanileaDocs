@@ -10,7 +10,7 @@ folder: mydoc
 
 <style>
 .result {
-background-color: #f0f0f0;
+background-color: #121212;
 border: 1px solid #dedede;
 padding: 10px;
 margin-top: 10px;
