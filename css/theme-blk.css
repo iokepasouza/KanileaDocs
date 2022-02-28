@@ -9,8 +9,8 @@ h3 {color: #ED1951; }
 h4 {color: #808080; }
 
 .nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-    background-color: #ED1951;
-    color: #ED1951;
+    background-color: #1c1010;
+    color: #1c1010;
 }
 
 .nav > li.active > a {
@@ -26,7 +26,7 @@ div.navbar-collapse .dropdown-menu > li > a:hover {
 }
 
 .nav li.thirdlevel > a {
-    background-color: #FAFAFA !important;
+    background-color: #1c1010 !important;
     color: #ED1951;
     font-weight: bold;
 }
@@ -63,7 +63,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #ED1951 !important;
+    border-color: #1c1010 !important;
 }
 
 .btn-primary {
