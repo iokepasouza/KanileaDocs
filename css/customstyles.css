@@ -242,8 +242,8 @@ ul#results-container a:hover {
 
 div#toc ul li {
     margin: 8px 0px 8px 22px;
-    font-size: 90%;
-    list-style: square;
+    font-size: 13px;
+    list-style: circle;
 }
 div#toc ul {
     background-color: #262626;
@@ -375,8 +375,8 @@ background-color: #347DBE;
 }
 
 .nav > li > a {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 15px;
+    line-height: 25px;
     padding: 4px 10px;
 }
 
@@ -395,9 +395,9 @@ ul#mysidebar {
     background-color: #121212 !important;
 }
 
-
 .nav ul li a {
     background-color: #121212;
+    font-weight: 250;
 }
 
 .nav li a {
