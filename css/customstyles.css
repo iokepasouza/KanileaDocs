@@ -199,7 +199,7 @@ p.post-meta {font-size: 80%; color: #777;}
 #search-demo-container ul#results-container {
     list-style: none;
     font-size: 12px;
-    background-color: #1c1010;
+    background-color: #2e2e2e;
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
@@ -213,7 +213,8 @@ ul#results-container a {
 }
 
 ul#results-container a:hover {
-    color: black;
+    color: #e6e6e6;
+    text-decoration: underline;
 }
 
 #search-demo-container a:hover {
