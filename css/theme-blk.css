@@ -23,13 +23,13 @@ h4 {color: #808080; }
 }
 
 div.navbar-collapse .dropdown-menu > li > a:hover {
-    background-color: #1c1010;
+    background-color: #121212;
     color:#e6e6e6;
     text-decoration: underline;
 }
 
 .nav li.thirdlevel > a {
-    background-color: #1c1010 !important;
+    background-color: #121212 !important;
     color: #9f0000;
     font-weight: bold;
 }
@@ -67,7 +67,13 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
-    border-color: #1c1010 !important;
+    border-color: #121212 !important;
+}
+
+.navbar-right .dropdown-menu {
+    right: 1;
+    left: auto;
+    background-color: #121212;
 }
 
 .btn-primary {
