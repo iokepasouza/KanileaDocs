@@ -1,0 +1,20 @@
+---
+title: Getting Started with Microsoft Dynamics
+tags: [getting_started]
+keywords:
+summary: ""
+sidebar: mydoc_sidebar
+permalink: BC_GettingStarted.html
+folder: Business Central
+---
+
+## ADP Process
+
+Go to ADP
+
+Click login
+
+
+<P align="Center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hjMx8EuyZJ8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<P>

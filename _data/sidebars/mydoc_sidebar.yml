@@ -44,19 +44,31 @@ entries:
       url: /mydoc_support.html
       output: web, pdf
 
-  - title: Release Notes
+  - title: Business Central
     output: web, pdf
     folderitems:
 
-    - title: 6.0 Release notes
-      url: /mydoc_release_notes_60.html
+    - title: Getting Started
+      url: /BC_GettingStarted.html
       output: web, pdf
 
-    - title: 5.0 Release notes
+    - title: Sales
       url: /mydoc_release_notes_50.html
       output: web, pdf
 
-  - title: Installation
+    - title: Production
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Accounting
+      url: /mydoc_release_notes_50.html
+      output: web, pdf
+
+    - title: Code Development
+      url: /mydoc_release_notes_50.html
+      output: web,pdf
+
+  - title: Test
     output: web, pdf
     folderitems:
 
