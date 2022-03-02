@@ -83,7 +83,7 @@ a.navbar-brand:hover {
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    background-color: #9f0000;
+    background-color: #121212;
 }
 
 .btn-primary:hover,
@@ -118,8 +118,7 @@ li.sidebarTitle {
     font-size:130%;
     color: #e6e6e6;
     margin-bottom:10px;
-    margin-left: 5px;
-
+    margin-left: center;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -153,4 +152,22 @@ body {
 .nav>li>a:focus, .nav>li>a:hover {
     text-decoration: underline;
     background-color: #9f000000;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: 750px
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: 970px
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: auto;
+    }
 }

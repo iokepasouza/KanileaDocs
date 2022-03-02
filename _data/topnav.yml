@@ -12,16 +12,12 @@ topnav:
 topnav_dropdowns:
 - title: Topnav dropdowns
   folders:
-    - title: Kanilea Help
+    - title: External Websites
       folderitems:
-        - title: Email
-          external_url: https://talk.jekyllrb.com
-        - title: Jekyll documentation
-          external_url: http://jekyllrb.com/docs/home/
-        - title: Jekyll on Stack Overflow
-          external_url: http://stackoverflow.com/questions/tagged/jekyll
-        - title: Jekyll on my blog
-          external_url: http://idratherbewriting.com/category-jekyll/
+        - title: Kanilea Website
+          external_url: https://www.kanileaukulele.com/
+        - title: Business Central
+          external_url: https://businesscentral.dynamics.com/
     - title: Products
       folderitems:
         - title: Jekyll Documentation Theme
