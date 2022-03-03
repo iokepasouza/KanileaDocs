@@ -3,6 +3,7 @@ title: "Getting Started with Kanilea Documentation"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar
+tableofcontents: my_toc
 permalink: index.html
 summary: This page will help you get started with the Kanile`a Docs.
 ---

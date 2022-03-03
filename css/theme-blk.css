@@ -39,6 +39,11 @@ a[data-toggle="tooltip"] {
     font-style: italic;
     cursor: default;
 }
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 
 .navbar-inverse {
     background-color: #121212;
@@ -113,7 +118,6 @@ div.sidebarTitle {
 }
 
 li.sidebarTitle {
-  margin-top:20px;
     font-weight:normal;
     font-size:130%;
     color: #e6e6e6;
@@ -169,5 +173,7 @@ body {
 @media (min-width:1200px) {
     .container {
         width: auto;
+        margin-left: 3rem;
+        margin-right: 3rem;
     }
 }
