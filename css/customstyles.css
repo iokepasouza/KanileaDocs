@@ -228,7 +228,7 @@ ul#results-container a:hover {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top:12px;
+    margin-top:9px;
     background-color: #161616;
 }
 /* end search */
@@ -289,7 +289,7 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top:12px;
+    margin-top:9px;
 }
 
 .post-content .rssfeedLink {
@@ -1383,13 +1383,13 @@ h4.panel-title {
 
 .logo {
     position: absolute;
-    padding-left: 2rem;
-    padding-top: .75rem;
+    padding-left: 3rem;
+    padding-top: .5rem;
 }
 
 .fa-home:before{
     content:"\2503";
-    padding-left: 2.5rem;
+    padding-left: 18rem;
     font-size: 20px;
     color: darkseagreen;
 }
