@@ -1,5 +1,5 @@
 ---
-title: "Getting Started with Kanilea Documentation"
+title: "Getting Started with Kanile'a Documentation"
 keywords: sample homepage
 tags: [getting_started]
 sidebar: mydoc_sidebar

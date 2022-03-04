@@ -1,5 +1,10 @@
 <!-- Navigation -->
 <nav class="navbar navbar-inverse navbar-static-top">
+    <div class = "logo" >
+        <a href="index.html">
+        <img src="images/Kanilea.png" width='40px' height='40px'>
+        </a>
+    </div>
     <div class="container topnavlinks">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -9,13 +14,14 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;
-            <span class="projectTitle"> <img src="images/Kanilea.png" width='40px' height='40px'> {{site.topnav_title}}</span></a>
+            <span class="projectTitle">{{site.topnav_title}}</span></a>
         </div>
+        
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <!-- toggle sidebar button -->
-                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
-                <!-- entries without drop-downs appear here -->
+                <!-- toggle sidebar button 
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Switch Theme</a></li>
+                entries without drop-downs appear here -->
 
 {% assign topnav = site.data[page.topnav] %}
 {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
