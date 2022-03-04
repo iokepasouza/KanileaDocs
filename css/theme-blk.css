@@ -1,5 +1,5 @@
 .summary {
-    color: #e6e6e6;
+    color: #ffffff;
     border-left: 5px solid darkseagreen;
     font-size:16px;
 }
@@ -45,7 +45,7 @@ a[data-toggle="tooltip"] {
     border-color: #404040;
 }
 .navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
@@ -62,7 +62,7 @@ a.navbar-brand:hover {
 
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
     background-color: #9f000000;
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
@@ -76,13 +76,13 @@ a.navbar-brand:hover {
 }
 
 .btn-primary {
-    color: #e6e6e6;
+    color: #ffffff;
     background-color: #9f0000;
     border-color: #9f0000;
 }
 
 .navbar-inverse .navbar-nav > .active > a {
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
@@ -105,8 +105,8 @@ a.navbar-brand:hover {
 
 body.print h1 {color: #75b6e7 !important; font-size:28px !important;}
 body.print h2 {color: #595959 !important; font-size:20px !important;}
-body.print h3 {color: #E50E51 !important; font-size:14px !important;}
-body.print h4 {color: #679DCE !important; font-size:14px; font-style: italic !important;}
+body.print h3 {color: #E50E51 !important; font-size:16px !important;}
+body.print h4 {color: #679DCE !important; font-size:16px; font-style: italic !important;}
 
 .anchorjs-link:hover {
     color: #9f0000;
@@ -119,8 +119,8 @@ div.sidebarTitle {
 li.sidebarTitle {
     font-weight:normal;
     font-size:130%;
-    color: #e6e6e6;
-    margin-bottom:14px;
+    color: #ffffff;
+    margin-bottom:16px;
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
@@ -132,10 +132,10 @@ li.sidebarTitle {
 }
 
 body {
-    font-family: 'Times New Roman';
-    font-size: 14px;
+    font-family: sans-serif;
+    font-size: 16px;
     line-height: 1.42857143;
-    color: #e6e6e6;
+    color: #ffffff;
     background-color: #161616;
 }
 
@@ -145,9 +145,9 @@ body {
     padding: 3px 20px;
     clear: both;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.42857143;
-    color: #e6e6e6;
+    color: #ffffff;
     white-space: nowrap;
     
 }
@@ -174,4 +174,9 @@ body {
         margin-left: 3rem;
         margin-right: 3rem;
     }
+}
+
+a {
+    color: darkseagreen;
+    text-decoration: none;
 }

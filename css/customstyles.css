@@ -129,7 +129,7 @@ th {
 table {
     max-width: 90%;
     margin-bottom: 20px;
-    border: 1px solid #e6e6e6;
+    border: 1px solid #ffffff;
 }
 
 table > thead > tr > th,
@@ -148,7 +148,7 @@ table > thead > tr > th {
     border-bottom: 2px solid #161616;
     text-transform: none;
     background-color: #161616;
-    color: #e6e6e6;
+    color: #ffffff;
     text-align: left;
 }
 table > caption + thead > tr:first-child > th,
@@ -193,7 +193,7 @@ p.external a {
 }
 p.post-meta {font-size: 80%; color: #777;}
 
-.entry-date{font-size:14px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
+.entry-date{font-size:16px;font-size:0.875rem;line-height:1.71429;margin-bottom:0;text-transform:uppercase;}
 
 /* search area */
 #search-demo-container ul#results-container {
@@ -213,7 +213,7 @@ ul#results-container a {
 }
 
 ul#results-container a:hover {
-    color: #e6e6e6;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -242,7 +242,7 @@ ul#results-container a:hover {
 
 div#toc ul li {
     margin: 8px 0px 8px 22px;
-    font-size: 14px;
+    font-size: 16px;
     list-style: "\2503";
 }
 div#toc ul {
@@ -250,7 +250,7 @@ div#toc ul {
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
-    color: darkseagreen;
+    color: #ffffff;
     float: right;
 }
 
@@ -266,7 +266,7 @@ div#toc ul li ul li::before {
 div#toc >ul::before {
     content: "Table of Contents";
     font-weight: 500;
-    font-size: 14px;
+    font-size: 16px;
     font-size: 120%;
     color: #e4e4e4;
     text-align:center;
@@ -306,7 +306,7 @@ footer {
 }
 
 a.accordion-toggle, a.accordion-collapsed {
-    font-size: 14px;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -336,7 +336,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a {
-    color: #e6e6e6;
+    color: #ffffff;
     display: block;
     /*-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -362,7 +362,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav a:hover, .nav li.active > a {
     background-color: #9f000000;
-    color: #e6e6e6;
+    color: #ffffff;
     text-decoration: underline;
 }
 
@@ -371,14 +371,14 @@ background-color: #347DBE;
 }
 
 .nav li a {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     padding: 2px 10px;
     background-color: #161616;
 }
 
 .nav > li > a {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 25px;
     padding: 4px 10px;
 }
@@ -401,7 +401,7 @@ ul#mysidebar {
 .nav ul li a {
     background-color: #161616;
     font-weight: 250;
-    color: #e6e6e6;
+    color: #ffffff;
 }
 
 .nav li a {
@@ -415,7 +415,7 @@ ul#mysidebar {
 
 .nav ul li a {
     border-top:1px solid #161616;
-    padding-left:10px;
+    padding-left:35px;
 }
 /* end sidebar */
 
@@ -545,7 +545,7 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
 }
 
 .navbar a:focus {
-    outline: 1px solid #e6e6e6;
+    outline: 1px solid #ffffff;
 }
 
 hr.faded {
@@ -583,7 +583,7 @@ a[data-toggle] {
 
 .summary {
     font-size:120%;
-    color: #808080;
+    color: #ffffff;
     margin:20px 0px 20px 0px;
     border-left: 5px solid #ED1951;
     padding-left: 10px;
@@ -624,7 +624,7 @@ div#toc ul li ul li {
 
 .tab-content {
     padding: 15px;
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 
 span.tagTitle {font-weight: 500;}
@@ -646,11 +646,11 @@ li.activeSeries {
 div.alert code, h2 code {
     background-color: transparent !important;
 }
-/* without this, the links in these notes aren't visible.*/
+/* without this, the links in these notes aren't visible.
 .alert a {
     text-decoration: underline;
 }
-
+*/
 div.tags {padding: 10px 5px;}
 
 .tabLabel {
@@ -725,7 +725,7 @@ ol.series li {
 }
 
 #mysidebar .nav ul {
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 .nav ul.series li {
     list-style: decimal;
@@ -740,7 +740,7 @@ ol.series li {
 }
 
 .nav ul.series {
-    background-color: #e6e6e6;
+    background-color: #ffffff;
 }
 
 /*
@@ -985,7 +985,7 @@ div.results {
 }
 
 .post-meta {
-    font-size: 14px;
+    font-size: 16px;
     color: #828282;
 }
 
@@ -1147,7 +1147,7 @@ div.box.box1 {
         white-space: -pre-wrap;      /* Opera 4-6 */
         white-space: -o-pre-wrap;    /* Opera 7 */
         word-wrap: break-word;       /* Internet Explorer 5.5+ */
-        font-size: 14px;
+        font-size: 16px;
     }
 
 /*
