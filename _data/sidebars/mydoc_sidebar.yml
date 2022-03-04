@@ -51,10 +51,15 @@ entries:
     - title: Getting Started
       url: /BC_GettingStarted.html
       output: web, pdf
+      
+      subfolders:
+      - title: Sales
+        output: web, pdf
+        subfolderitems:
 
-    - title: Sales
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
+        - title: Getting Started in Sales
+          url: /doc_GS_sales.html
+          output: web, pdf
 
     - title: Production
       url: /mydoc_release_notes_50.html
