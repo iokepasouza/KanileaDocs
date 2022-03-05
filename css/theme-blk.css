@@ -124,11 +124,11 @@ li.sidebarTitle {
 }
 
 .navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
-    background-color: #9f0000;
+    background-color: darkseagreen;
 }
 
 .navbar-inverse .navbar-toggle {
-    border-color: #9f0000;
+    border-color: darkseagreen;
 }
 
 body {
@@ -171,12 +171,17 @@ body {
 @media (min-width:1200px) {
     .container {
         width: auto;
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
     }
 }
 
 a {
-    color: darkseagreen;
+    color:darkseagreen;
     text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: underline;
 }

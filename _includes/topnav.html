@@ -15,17 +15,20 @@
             </button>
             <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;
             <span class="projectTitle">{{site.topnav_title}}</span></a>
+                <!-- toggle sidebar button -->
+                <div class = col-md-2>
+                    <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Navbar</a></li>
+                </div>
+                <!-- entries without drop-downs appear here -->                  
         </div>
-        
+  
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
-                <!-- toggle sidebar button 
-                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Switch Theme</a></li>
-                entries without drop-downs appear here -->
 
-{% assign topnav = site.data[page.topnav] %}
-{% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
-
+    
+    {% assign topnav = site.data[page.topnav] %}
+    {% assign topnav_dropdowns = site.data[page.topnav].topnav_dropdowns %}
+    
                 {% for entry in topnav.topnav %}
                 {% for item in entry.items %}
                 {% if item.external_url %}
@@ -58,8 +61,8 @@
                 {% endfor %}
                 {% endfor %}
                 {% if site.feedback_disable == null or site.feedback_disable == false %}
-			{% include feedback.html %}
-		{% endif %}
+            {% include feedback.html %}
+        {% endif %}
                 <!--comment out this block if you want to hide search-->
                 <li>
                     <!--start search-->
