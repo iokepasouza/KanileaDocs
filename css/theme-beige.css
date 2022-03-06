@@ -582,6 +582,7 @@ background-color: #ffffff;
 ul#mysidebar {
     border-radius:0px;
     border-right: 1px solid #c3b090;
+    position: inherit;
 }
 
 .sidebarTitle {
@@ -1076,7 +1077,6 @@ span.soft {
 @media (min-width: 1000px) {
 
     ul#mysidebar {
-        width: 100%;
         border-right: 1px solid #c3b090;
     }
 }
@@ -1084,8 +1084,9 @@ span.soft {
 @media (max-width: 900px) {
 
     ul#mysidebar {
-        max-width: 100%;
+        min-width: 20%;
         border-right: 1px solid #c3b090;
+        position: inherit;
     }
 }
 
@@ -1722,4 +1723,8 @@ code {
     border-radius: 4px;
     -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
     box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+}
+
+.affix {
+    position: absolute;
 }
