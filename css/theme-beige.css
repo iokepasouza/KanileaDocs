@@ -1,3 +1,193 @@
+.summary {
+    color: #121212;
+    border-left: 5px solid #c3af90;
+    font-size:16px;
+}
+
+
+h3 {color: #c3af90; }
+h4 {color: #808080; }
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+.nav > li.active > a {
+    background-color: #ffffff
+}
+
+.nav > li > a:hover {
+    background-color: #9f0000;
+    text-decoration: underline;
+}
+
+div.navbar-collapse .dropdown-menu > li > a:hover {
+    background-color: #ffffff;
+    color: #c3af90;
+    text-decoration: underline;
+}
+
+.nav li.thirdlevel > a {
+    background-color: #ffffff !important;
+    color: #9f0000;
+    font-weight: bold;
+}
+
+a[data-toggle="tooltip"] {
+    color: #649345;
+    font-style: italic;
+    cursor: default;
+}
+
+.navbar-inverse {
+    background-color: #c3af90;
+    border-color: #404040;
+}
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, a.fa.fa-home.fa-lg.navbar-brand:hover {
+     color: #ffffff;
+}
+
+a.navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #ffffff !important;
+}
+
+.nav navbar-nav navbar-right:hover {
+    text-decoration: underline;
+}
+
+.navbar-right .dropdown-menu {
+    right: 1;
+    left: auto;
+    background-color: #ffffff;
+}
+
+.btn-primary {
+    color: #121212;
+    background-color: #9f0000;
+    border-color: #9f0000;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    color: #121212;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #ffffff;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+    background-color: #248ec2;
+    border-color: #9f0000;
+}
+
+.printTitle {
+    color: #9f0000 !important;
+}
+
+body.print h1 {color: #75b6e7 !important; font-size:28px !important;}
+body.print h2 {color: #595959 !important; font-size:20px !important;}
+body.print h3 {color: #E50E51 !important; font-size:16px !important;}
+body.print h4 {color: #679DCE !important; font-size:16px; font-style: italic !important;}
+
+.anchorjs-link:hover {
+    color: #9f0000;
+}
+
+div.sidebarTitle {
+    color: #9f0000;
+}
+
+li.sidebarTitle {
+    font-weight:normal;
+    font-size:130%;
+    color: #34495e;
+    margin-bottom:16px;
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #ffffff;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #ffffff;
+}
+
+body {
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+    color: #34495e;
+    background-color: #ffffff;
+}
+
+.dropdown-menu>li>a {
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 2em;
+    color: #34495e;
+    white-space: nowrap;
+    
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: underline;
+    background-color: #9f000000;
+}
+
+@media (min-width:768px) {
+    .container {
+        width: auto
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        width: auto
+    }
+}
+
+@media (min-width:1200px) {
+    .container {
+        width: auto;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+}
+
+a, a:active, a:focus {
+    color:#c3b090;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+a:hover {
+    color: #c3b090;
+    text-decoration: underline;
+}
+
 body {
     font-size:15px;
 }
@@ -5,7 +195,7 @@ body {
 .bs-callout {
     padding: 20px;
     margin: 20px 0;
-    border: 1px solid #eee;
+    border: 1px solid #c3af90;
     border-left-width: 5px;
     border-radius: 3px;
 }
@@ -139,15 +329,15 @@ table > thead > tr > td,
 table > tbody > tr > td,
 table > tfoot > tr > td {
     padding: 8px;
-    line-height: 1.42857143;
+    line-height: 2em;
     vertical-align: top;
     border-top: 1px solid #404040;
 }
 table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #161616;
+    border-bottom: 2px solid #ffffff;
     text-transform: none;
-    background-color: #161616;
+    background-color: #ffffff;
     color: #ffffff;
     text-align: left;
 }
@@ -161,7 +351,7 @@ table > thead:first-child > tr:first-child > td {
 }
 
 table > tbody > tr:nth-of-type(odd) {
-    background-color: #161616;
+    background-color: #ffffff;
 }
 
 table col[class*="col-"] {
@@ -199,13 +389,14 @@ p.post-meta {font-size: 80%; color: #777;}
 #search-demo-container ul#results-container {
     list-style: none;
     font-size: 12px;
-    background-color: #2e2e2e;
+    background-color: #fff;
     position: absolute;
     top: 40px; /* if you change anything about the nav, you'll prob. need to reset the top and left values here.*/
     left: 20px;
     z-index: -1;
     width:223px;
-    border-left: 1px solid #dedede;
+    border-left: 1px solid #c3b090;
+    box-shadow: 1px 1px 1px #c3b090;
 }
 
 ul#results-container a {
@@ -213,7 +404,7 @@ ul#results-container a {
 }
 
 ul#results-container a:hover {
-    color: #ffffff;
+    color: #c3af90;
     text-decoration: underline;
 }
 
@@ -224,12 +415,14 @@ ul#results-container a:hover {
     padding: .5em;
     margin-left:20px;
     width:20em;
+    height: 35px;
     font-size: 1.2rem;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin-top:9px;
-    background-color: #161616;
+    margin-top: 8px;
+    background-color: #ffffff;
+    border: 2px solid #c3af90;
 }
 /* end search */
 
@@ -244,14 +437,15 @@ div#toc ul li {
     margin: 8px 0px 8px 22px;
     font-size: 16px;
     list-style: "\2503";
+    color: #34495e;
 }
 div#toc ul {
-    background-color: #16161600;
+    background-color: #ffffff00;
     padding: 5px;
     border-radius: 5px;
     max-width: 300px;
     color: #ffffff;
-    float: right;
+    float: center;
 }
 
 div#toc ul li ul {
@@ -268,13 +462,15 @@ div#toc >ul::before {
     font-weight: 500;
     font-size: 16px;
     font-size: 120%;
-    color: #ffffff;
+    color: #34495e;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
     width:70px;
-    padding-top:20px;
     padding-bottom:20px;
+    line-height: 2em;
+    float: left;
+    min-width: 100%;
 }
 
 li.dropdownActive a {
@@ -289,7 +485,7 @@ li.dropdownActive a {
 
 .navbar-inverse .navbar-nav > li > a {
     background-color: transparent;
-    margin-top: 10.3px;
+    margin-top: 8.3px;
 }
 
 .post-content .rssfeedLink {
@@ -337,7 +533,7 @@ a.accordion-toggle, a.accordion-collapsed {
 }
 
 .nav a {
-    color: #ffffff;
+    color: #364149;
     display: block;
     /*-webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -355,7 +551,7 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav li > a > span:after {
     content: '\25b9';
-    color: darkseagreen;
+    color: #c3af90;
 }
 .nav li.active > a > span:after {
     content: '\25bF';
@@ -363,29 +559,34 @@ a.accordion-toggle, a.accordion-collapsed {
 
 .nav a:hover, .nav li.active > a {
     background-color: #9f000000;
-    color: #ffffff;
+    color: #364149;
     text-decoration: underline;
 }
 
 .nav > li.active > a  {
-background-color: #347DBE;
+background-color: #ffffff;
 }
 
 .nav li a {
     font-size: 16px;
-    line-height: 20px;
+    line-height: 2em;
     padding: 2px 10px;
-    background-color: #161616;
+    background-color: #ffffff;
 }
 
 .nav > li > a {
     font-size: 16px;
-    line-height: 25px;
-    padding: 4px 10px;
+    line-height: 2em;
 }
 
 ul#mysidebar {
     border-radius:0px;
+    border-right: 1px solid #c3b090;
+}
+
+.sidebarTitle {
+    text-align: center;
+    line-height: 2em;
 }
 
 .nav ul li ul li a {
@@ -396,13 +597,13 @@ ul#mysidebar {
     color: #248EC2;
     font-weight:bold;
     padding-left:20px;
-    background-color: #161616 !important;
+    background-color: #ffffff !important;
 }
 
 .nav ul li a {
-    background-color: #161616;
+    background-color: #ffffff;
     font-weight: 250;
-    color: #ffffff;
+    color: #34495e;
 }
 
 .nav li a {
@@ -411,12 +612,11 @@ ul#mysidebar {
 
 .nav li a:hover {
     background-color: #9f000000;
-    color: darkseagreen;
+    color: #c3af90;
 }
 
 .nav ul li a {
-    border-top:1px solid #161616;
-    padding-left:20%;
+    border-top:1px solid #ffffff;
 }
 /* end sidebar */
 
@@ -429,8 +629,13 @@ ul#mysidebar {
 }
 
 span.projectTitle {
-    font-family: Helvetica;
-    font-weight: bold;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+span.projectTitle:hover {
+    text-decoration: underline;
 }
 
 .footer {
@@ -545,9 +750,6 @@ a.dropdown-toggle, .navbar-inverse .navbar-nav > li > a  {
     margin-right: 10px;
 }
 
-.navbar a:focus {
-    outline: 1px solid #ffffff;
-}
 
 hr.faded {
     border: 0;
@@ -562,7 +764,7 @@ hr.shaded {
     height: 5px;
     border: 0;
     margin-top: 70px;
-    background: darkseagreen;
+    background: #c3af90;
     width: 100%;
     margin-bottom: 10px;
 }
@@ -584,9 +786,9 @@ a[data-toggle] {
 
 .summary {
     font-size:120%;
-    color: #ffffff;
+    color: #364149;
     margin:20px 0px 20px 0px;
-    border-left: 5px solid #ED1951;
+    border-left: 4px solid #c3af90;
     padding-left: 10px;
 
 }
@@ -601,7 +803,7 @@ a.fa.fa-envelope-o.mailto {
     font-weight: 600;
 }
 
-h3 {color: #ED1951; font-weight:normal; font-size:130%;}
+h3 {color: #c3af90; font-weight:normal; font-size:130%;}
 h4 {color: #808080; font-weight:normal; font-size:120%; font-style:italic;}
 
 .alert, .callout {
@@ -673,7 +875,7 @@ button.cursorNorm {
 h2  {
     font-size:24px;
     line-height:29px;
-    color: darkseagreen;
+    color: #34495e;
 }
 span.otherProgrammingLanguages {
     font-style: normal;
@@ -704,7 +906,7 @@ ol.series li {
     font-size: 200%;
     font-weight: bold;
     color: silver;
-    font-family: monospace;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
     text-align: center;
     line-height: 10px;
     margin: 20px 0px;
@@ -714,7 +916,7 @@ ol.series li {
 .versionTagline {
     text-align: center;
     margin-bottom: 20px;
-    font-family: courier;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
     color: silver;
     color: #444;
     display:block;
@@ -819,7 +1021,7 @@ a.accordion-toggle {
 
 span.red {
     color: red;
-    font-family: Monaco, Menlo, Consolas, "Courier New", monospace;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 }
 
 h3.codeExplanation {
@@ -840,14 +1042,15 @@ span.soft {
 .endpoint {
     padding: 15px;
     background-color: #f0f0f0;
-    font-family: courier;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
     font-size: 110%;
     margin: 20px 0px;
     color: #444;
+    color: #c3af90;
 }
 
 .parameter {
-    font-family: courier;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
     color: red !important;
 }
 
@@ -873,7 +1076,8 @@ span.soft {
 @media (min-width: 1000px) {
 
     ul#mysidebar {
-        width: 225px;
+        width: 100%;
+        border-right: 1px solid #c3b090;
     }
 }
 
@@ -881,6 +1085,7 @@ span.soft {
 
     ul#mysidebar {
         max-width: 100%;
+        border-right: 1px solid #c3b090;
     }
 }
 
@@ -937,7 +1142,7 @@ span.soft {
 }
 
 /* this part adds an icon after external links, using FontAwesome*/
-a[href^="https://"]:after {
+a[href^="https://github.com"]:after {
     content: "\f09b";
     font-family: FontAwesome;
     font-weight: normal;
@@ -948,7 +1153,40 @@ a[href^="https://"]:after {
     padding-left: 5px;
 }
 
-/* Strip the outbound icon when this class is present */
+a[href^="https://www.kanileaukulele.com/"]:after {
+    content: "\f1d0";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 13px;
+}
+
+a[href^="https://business"]:after {
+    content: "\f17a";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 9.5px;
+}
+
+/* Strip the outbound icon when this class is present     font-family: FontAwesome;
+    font-weight: normal;
+    font-size: 18px;
+    font-style: normal;
+    display: inline-block;
+    text-decoration: none;
+    padding-left: 5px;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    background-size: 21px;
+    margin-top: 6px;*/
 a[href].noCrossRef::after,
 a.no_icon:after
  {
@@ -1058,7 +1296,7 @@ table thead th code.highlighter-rouge {
     width: 100px;
     height: 80px;
     background-color: #f5f5f5;
-    font-family: Arial;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
     font-size: 12px;
     hyphens: auto;
     float: left;
@@ -1083,7 +1321,7 @@ table thead th code.highlighter-rouge {
 }
 
 h2.userMapTitle {
-    font-family: Arial;
+    font-family: Source Sans Pro,Helvetica Neue,Arial,sans-serif;
 }
 
 #userMap a:hover {
@@ -1184,7 +1422,11 @@ h4.panel-title {
     border: 1px solid transparent;
 }
 
-@media (max-width: 1280px) {
+.icon-bar:hover {
+    color: #c3b090;
+}
+
+@media (max-width: 865px) {
     .navbar-header {
         float: none;
     }
@@ -1236,6 +1478,7 @@ h4.panel-title {
     }
     .col-md-9 {
       width: 59%;
+      padding-left: 0;
     }
     .col-md-8 {
       width: 66.66666667%;
@@ -1254,9 +1497,13 @@ h4.panel-title {
       position: sticky;
       top: 3rem;
       float: right;
+      border-left: 1px solid #c3b090;
+      min-height: 415px;
+      text-align: left;
     }
     .col-md-3 {
       width: 20%;
+      min-height: 400px;
     }
     .col-md-2 {
       width: 25%;
@@ -1385,19 +1632,20 @@ h4.panel-title {
 
 .logo {
     position: absolute;
-    padding-left: 3rem;
+    padding-left: 1.5rem;
     padding-top: .5rem;
 }
 
 .fa-home:before{
     content:"\2503";
-    padding-left: 19rem;
+    padding-left: 20rem;
     font-size: 20px;
-    color: darkseagreen;
+    color: #ffffff;
 }
 
 .nav navbar-nav navbar-right {
     text-decoration: underline;
+    color: #fff;
 }
 
 .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
@@ -1408,12 +1656,13 @@ h4.panel-title {
 .col-md-2 {
     color: rgba(255, 0, 0, 0);
     padding-left: 0px;
-    padding-bottom: 1rem;
+    padding-bottom: 9px;
     padding-right: 0rem;
+    position: inherit;
 }
 
 .navbar-header {
-    min-width: 386px;
+    min-width: 300px;
 }
 
 .fa-github:before {
@@ -1423,12 +1672,53 @@ h4.panel-title {
 .btn-default {
     color: #000;
     background-color: #fff;
-    border-color: darkseagreen;
+    border-color: #c3af90;
     font-size: 16px;
 }
 
 .btn-default:hover {
     color: #000;
-    background-color: darkseagreen;
+    background-color: #c3af90;
     text-decoration: underline;
+}
+
+code {
+    padding: 2px 4px;
+    font-size: 90%;
+    color: #34495e;
+    background-color: #c3af90;
+    border-radius: 4px;
+}
+
+.fa, .fa:hover, .fa:active {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 16px;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    color: #c3b090;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 6px 0;
+    margin: 6px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
+    box-shadow: 0 6px 12px rgb(0 0 0 / 18%);
 }
