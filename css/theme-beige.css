@@ -1502,7 +1502,7 @@ h4.panel-title {
       text-align: left;
     }
     .col-md-3 {
-      width: 20%;
+      max-width: 20%;
       min-height: 400px;
     }
     .col-md-2 {
