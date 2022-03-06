@@ -526,6 +526,7 @@ a.accordion-toggle, a.accordion-collapsed {
 .nav > li {
     margin: 1px 0;
     padding-left: .2px;
+    max-width: 20%;
 }
 
 .nav > li li {
@@ -1504,6 +1505,7 @@ h4.panel-title {
     .col-md-3 {
       max-width: 20%;
       min-height: 400px;
+      min-width: 20%;
     }
     .col-md-2 {
       width: 25%;
