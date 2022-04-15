@@ -19,256 +19,1503 @@ entries:
       output: pdf
       type: frontmatter
 
-  - title: Overview
+  - title: Getting Started
     output: web, pdf
     folderitems:
 
-    - title: Get started
-      url: /index.html
-      output: web, pdf
-      type: homepage
-
-    - title: Introduction
-      url: /mydoc_introduction.html
-      output: web, pdf
-
-    - title: Supported features
-      url: /mydoc_supported_features.html
-      output: web, pdf
-
-    - title: About the theme author
-      url: /mydoc_about.html
-      output: web, pdf
-
-    - title: Support
-      url: /mydoc_support.html
-      output: web, pdf
+    - title: Kanilea Docs Overview
+      url: index.html
+      output: web,pdf
 
   - title: Business Central
     output: web, pdf
     folderitems:
 
-    - title: Getting Started
-      url: /BC_GettingStarted.html
-      output: web, pdf
-      
+    - title: Overview of Business Central
+      url: overview_of_business_central.html
+      output: web,pdf
+    
       subfolders:
-      - title: Sales
+      - title: Getting Started with BC
         output: web, pdf
         subfolderitems:
 
-        - title: Getting Started in Sales
-          url: /doc_GS_sales.html
+        - title: Logging in
+          url: logging_in.html
+          output: web, pdf
+        
+        - title: Home Page Navigation
+          url: home_page.html
           output: web, pdf
 
-    - title: Production
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
+        - title: Page Modifications
+          url: page_modifications.html
+          output: web, pdf
 
-    - title: Accounting
-      url: /mydoc_release_notes_50.html
-      output: web, pdf
+      - title: BC Admin
+        output: web, pdf
+        subfolderitems:
 
-    - title: Code Development
-      url: /mydoc_release_notes_50.html
-      output: web,pdf
+        - title: Creating Items
+          url: creating_items.html
+          output: web, pdf
+        
+        - title: Negative and Positive Adjustments
+          url: negative_and_postive_adjustments.html
+          output: web, pdf
 
-  - title: Human Resources
-    output: web, pdf
-    folderitems:
+        - title: Creating Customers
+          url: creating_gl_accounts.html
+          output: web, pdf  
 
-    - title: About Ruby, Gems, Bundler, etc.
-      url: /mydoc_about_ruby_gems_etc.html
-      output: web, pdf
+        - title: Creating G/L Accounts
+          url: creating_gl_accounts.html
+          output: web, pdf
 
-    - title: Install Jekyll on Mac
-      url: /mydoc_install_jekyll_on_mac.html
-      output: web, pdf
+        - title: Working with Sandboxes
+          url: working_with_sandboxes.html
+          output: web, pdf
 
-    - title: Install Jekyll on Windows
-      url: /mydoc_install_jekyll_on_windows.html
-      output: web, pdf
+      - title: Running Reports
+        output: web, pdf
+        subfolderitems:
+
+        - title: Sales Report
+          url: sales_report.html
+          output: web, pdf
+        
+        - title: Profit and Loss
+          url: profit_and_loss.html
+          output: web, pdf
+
+        - title: Balance Sheet
+          url: page_modifications.html
+          output: web, pdf
+
+        - title: Balance Sheet
+          url: page_modifications.html
+          output: web, pdf     
+
+      - title: Power B.I
+        output: web, pdf
+        subfolderitems:
+
+        - title: Locating BI Reports
+          url: locating_bi_reports.html
+          output: web, pdf
+
+        - title: Download Power B.I Desktop
+          url: download_power_bi_desktop.html
+          output: web,pdf
+
+        - title: Create first B.I report
+          url: create_first_bi_report.html
+          output: web,pdf
+
+      - title: BC Troubleshooting
+        output: web, pdf
+        subfolderitems:
+
+        - title: Can't find Serial No.
+          url: can't_find_serial_no.html
+          output: web, pdf
+
+        - title: Download Power B.I Desktop
+          url: download_power_bi_desktop.html
+          output: web,pdf
+
+        - title: Create first B.I report
+          url: create_first_bi_report.html
+          output: web,pdf
 
   - title: Sales
     output: web, pdf
-
     folderitems:
-    - title: Pages
-      url: /mydoc_pages.html
+
+    - title: Navigating Sales in BC
+      url: navigating_sales_in_BC.html
       output: web, pdf
 
-    - title: Posts
-      url: /mydoc_posts.html
-      output: web, pdf
+      subfolders:
+      - title: Working with Customers in BC
+        output: web, pdf
+        subfolderitems:
 
-    - title: Lists
-      url: /mydoc_lists.html
-      output: web, pdf
+        - title: Navigating a Customer
+          url: navigating_a_customer.html
+          output: web,pdf
+        
+        - title: Creating a Customer Card
+          url: creating_a_customer.html
+          output: web,pdf
 
-    - title: Conditional logic
-      url: /mydoc_conditional_logic.html
-      output: web, pdf
+        - title: Editing a Customer Card
+          url: editing_a_customer_card
+          output: web,pdf
 
-    - title: Content reuse
-      url: /mydoc_content_reuse.html
-      output: web, pdf
+      - title: Sales Documents
+        output: web,pdf
+        subfolderitems:
 
-    - title: Collections
-      url: /mydoc_collections.html
-      output: web, pdf
+        - title: Creating a Sales Documents
+          url: creating_a_sales_documents.html
+          output: web,pdf
 
-    - title: WebStorm editor tips
-      url: /mydoc_webstorm_text_editor.html
-      output: web, pdf
+        - title: Serial Nos and Production
+          url: serial_nos_and_production.html
+          output: web,pdf
 
-    - title: Atom editor tips
-      url: /mydoc_atom_text_editor.html
-      output: web, pdf
+        - title: Posting Sales Documents 
+          url: posting_sales_documents.html
+          output: web,pdf
 
-  - title: Marketing
-    output: web, pdf
+        - title: Navigating Posted Sales Documents
+          url: navigating_posted_sales_documents.html
+          output: web,pdf
 
+        - title: Reversing Posted Sales Invoice
+          url: reversing_posted_sales_invoice.html
+          output: web,pdf
+
+      - title: Register Customer Payments
+        output: web,pdf
+        subfolderitems:
+
+        - title: Expi Trans Payments
+          url: expi_trans.html
+          output: web,pdf
+
+        - title: Authorize.Net Payments
+          url: authorize_net.html
+          output: web,pdf
+
+        - title: PayPal Payments
+          url: paypal.html
+          output: web,pdf
+
+        - title: Talech Payments
+          url: talech.html
+          output: web,pdf
+
+        - title: Register Payments in BC
+          url: register_payments_in_BC.html
+          output: web,pdf
+
+        - title: Customer Deposits
+          url: customer_deposits.html
+          output: web,pdf
+
+      - title: Credit Memo's and Refunds
+        output: web,pdf
+        subfolderitems:
+
+        - title: CM and Refunds Overview
+          url: credit_memo_and_refunds_overview.html
+          output: web,pdf
+
+        - title: Creating Credit Memos in BC
+          url: creating_credit_memos_in_BC.html
+          output: web,pdf
+
+        - title: Expi Trans Refunds
+          url: expi_trans.html
+          output: web,pdf
+
+        - title: Authorize.Net Refunds
+          url: authorize_net.html
+          output: web,pdf
+
+        - title: PayPal Refunds
+          url: paypal.html
+          output: web,pdf
+
+        - title: Talech Refunds
+          url: talech.html
+          output: web,pdf
+
+        - title: Posting Refunds in BC
+          url: posting_refunds_in_BC.html
+          output: web,pdf
+
+      - title: Customer CRM
+        output: web,pdf
+        subfolderitems:
+
+        - title: Customer CRM Overview
+          url: customer_crm_overview.html
+          output: web,pdf
+
+        - title: Customer Follow Up
+          url: customer_follow_up.html
+          output: web,pdf  
+
+      - title: Dealer CRM
+        output: web,pdf
+        subfolderitems:
+
+        - title: Dealer CRM Overview
+          url: dealer_crm_overview.html
+          output: web,pdf
+
+        - title: Dealer Cold Calling
+          url: dealer_cold_calling.html
+          output: web,pdf
+
+        - title: Dealer Follow-up
+          url: dealer_follow_up.html
+          output: web,pdf
+        
+      - title: Builders Experience
+        output: web,pdf
+        subfolderitems:
+
+        - title: Builders Experience Overview
+          url: builders_experience_overiview.html
+          output: web,pdf
+
+  - title: Windward Mall Showroom
+    output: web,pdf
+    
     folderitems:
-    - title: Sidebar navigation
-      url: /mydoc_sidebar_navigation.html
-      output: web, pdf
+    - title: Daily Checklist
+      url: daily_checklist.html
+      output:  web,pdf
 
-    - title: YAML tutorial in the context of Jekyll
-      url: /mydoc_yaml_tutorial.html
-      output: web, pdf
+      subfolders:
+      - title: Inventory
+        output: web,pdf
+        subfolderitems:
 
-    - title: Tags
-      url: /mydoc_tags.html
-      output: web, pdf
+        - title: Logging Inventory
+          url: logging_inventory_in_talech.html
+          output: web,pdf
 
-    - title: Series
-      url: /mydoc_series.html
-      output: web, pdf
+        - title: Inventory Count
+          url: inventory_count_store.html
+          output: web,pdf
+
+        - title: Purchase Orders
+          url: purchase_orders_store.html
+          output: web,pdf
+
+      - title: Working with Talech POS
+        output: web,pdf
+        subfolderitems:
+
+        - title: Creating new Items
+          url: creating_new_items_in_talech.html
+          output: web,pdf
+
+        - title: Customer Checkout
+          url: customer_checkout_talech.html
+          output: web,pdf
+
+      - title: Invoice and Payments
+        output: web,pdf
+        subfolderitems:
+
+        - title: Invoice and Payments Overview
+          url: invoice_and_payments_overview.html
+          output: web,pdf
+
+        - title: Creating Sales Invoices in BC
+          url: creating_sales_invoices_in_bc.html
+          output: web,pdf
+
+        - title: Reconcile BC Invoices
+          url: reconcile_bc_invoices.html
+          output: web,pdf
 
   - title: Accounting
     output: web, pdf
 
     folderitems:
-    - title: Tooltips
-      url: /mydoc_adding_tooltips.html
+    - title: Navigating Accounting in BC
+      url: navigating_accounting_in_bc.html
       output: web, pdf
 
-    - title: Alerts
-      url: /mydoc_alerts.html
-      output: web, pdf
+      subfolders:
+      - title: Vendors
+        output: web,pdf
+        subfolderitems:
 
-    - title: Icons
-      url: /mydoc_icons.html
-      output: web, pdf
+        - title: Setting up Vendor or 1099
+          url: setting_up_vendor_or_1099.html
+          output: web,pdf
 
-    - title: Images
-      url: /mydoc_images.html
-      output: web, pdf
+        - title: Edit Vendor Cards
+          url: edit_vendor_cards.html
+          output: web,pdf
+      
+      - title: Credit Card Rec
+        output: web,pdf
+        subfolderitems:
 
-    - title: Code samples
-      url: /mydoc_code_samples.html
-      output: web, pdf
+        - title: CC Rec Overview
+          url: rec_overview.html
+          output: web,pdf
 
-    - title: Labels
-      url: /mydoc_labels.html
-      output: web, pdf
+        - title: CC Rec in BC
+          url: cc_rec_in_bc.html
+          output: web,pdf
 
-    - title: Links
-      url: /mydoc_hyperlinks.html
-      output: web, pdf
+        - title: CC Rec Papercopy
+          url: cc_rec_paper_copy.html
+          output: web,pdf
 
-    - title: Navtabs
-      url: /mydoc_navtabs.html
-      output: web, pdf
+      - title: Bank Account Rec
+        output: web,pdf
+        subfolderitems:
 
-    - title: Tables
-      url: /mydoc_tables.html
-      output: web, pdf
+        - title: Bank Account Rec Overview
+          url: bank_account_rec_overview.html
+          output: web,pdf
 
-    - title: Syntax highlighting
-      url: /mydoc_syntax_highlighting.html
-      output: web, pdf
+        - title: Bank Account Rec in BC
+          url: bank_account_rec_in_bc.html
+          output: web,pdf
 
-    - title: Workflow maps
-      url: /mydoc_workflow_maps.html
-      output: web, pdf
+        - title: First Hawaiian Bank Rec
+          url: first_hawaiian_bank_rec.html
+          output: web,pdf
 
-  - title: Puchasing
+      - title: Reconciliation Troubleshooting
+        output: web,pdf
+        subfolderitems:
+
+        - title: Unknown Transaction on Statement
+          url: unknown_transaction_on_statement.html
+          output: web,pdf
+
+      - title: Accounts Payable
+        output: web,pdf
+        subfolderitems:
+
+        - title: Accounts Payable Overview
+          url: ap_overview.html
+          output: web,pdf
+
+        - title: Posting Recurring Vendor Invoices
+          url: posting_recurring_vendor_invoices.html
+          output: web,pdf
+
+        - title: Writing and Mailing Checks
+          url: writing_and_mailing_checks.html
+          output: web,pdf
+
+        - title: Sending Wire through FHB
+          url: sending_wire_through_fhb.html
+          output: web,pdf
+
+        - title: Register Outgoing Wire Payments
+          url: register_outgoing_wire_payments.html
+          output: web,pdf
+
+      - title: Accounts Receivable
+        output: web,pdf
+        subfolderitems:
+
+        - title: AR Overview
+          url: ar_overview.html
+          output: web,pdf
+
+        - title: Deposit Checks in Bank Account
+          url: deposit_checks_in_bank_account.html
+          output: web,pdf
+
+        - title: Register CC Payments in BC
+          url: register_cc_payments_in_bc.html
+          output: web,pdf
+
+        - title: Register Incoming Wire Payments
+          url: register_incoming_wire_payments.html
+          output: web,pdf
+
+        - title: Post CC Payments in Journal
+          url: post_cc_payments_in_journal.html
+          output: web,pdf
+
+      - title: Payroll
+        output: web,pdf
+        subfolderitems:
+
+        - title: Payroll Overview
+          url: payroll_overview.html
+          output: web,pdf
+
+        - title: Running Payroll in ADP
+          url: running_payroll_in_adp.html
+          output: web,pdf
+
+        - title: Posting Payroll Data in BC
+          url: posting_payroll_data_in_bc.html
+          output: web,pdf
+
+      - title: Credit Memo's and Refunds
+        output: web,pdf
+        subfolderitems:
+
+        - title: CM and Refunds Overview
+          url: credit_memo_and_refunds_overview.html
+          output: web,pdf
+
+        - title: Creating Credit Memos in BC
+          url: creating_credit_memos_in_BC.html
+          output: web,pdf
+
+        - title: Expi Trans Refunds
+          url: expi_trans.html
+          output: web,pdf
+
+        - title: Authorize.Net Refunds
+          url: authorize_net.html
+          output: web,pdf
+
+        - title: PayPal Refunds
+          url: paypal.html
+          output: web,pdf
+
+        - title: Talech Refunds
+          url: talech.html
+          output: web,pdf
+
+        - title: Posting Refunds in BC
+          url: posting_refunds_in_BC.html
+          output: web,pdf
+
+      - title: Bookkeeping
+        output: web,pdf
+        subfolderitems:
+
+        - title: Filing CC and Bank Statements
+          url: filing_cc_and_bank_statements.html
+          output: web,pdf
+
+        - title: Printing Receipts and Invoices
+          url: printing_receipts_and_invoices.html
+          output: web,pdf
+
+      - title: GET
+        output: web,pdf
+        subfolderitems:
+
+        - title: Monthly GET
+          url: monthly_get.html
+          output: web,pdf
+
+        - title: Yearly GET
+          url: yearly_get.html
+          output: web,pdf
+
+  - title: Navigating BC as Accountant
+    output: web,pdf
+
+    folderitems:
+    - title:
+      url:
+      output:
+
+
+  - title: Production
+    output: web,pdf
+
+    folderitems:
+    - title: Navigating Production in BC
+      url: navigating_production_in_bc.html
+      output: web,pdf
+
+      subfolders:
+      - title: Batching
+        output: web,pdf
+        subfolderitems:
+
+        - title: Planned and Firm Planned
+          url: planned_and_firm_planned.html
+          output: web,pdf
+
+        - title: Printing Batches and Barcodes
+          url: printing_batches_and_barcodes.html
+          output: web,pdf
+
+        - title: Finish Batch in BC
+          url: finish_batch_in_bc.html
+          output: web,pdf
+
+      - title: Milling
+        output: web,pdf
+        subfolderitems:
+
+        - title: Milling Overview
+          url: milling_overview.html
+          output: web,pdf
+
+        - title: Dryroom Maintenance
+          url: dryroom_maintenance.html
+          output: web,pdf
+
+        - title: Restock Dryroom
+          url: restock_dryroom.html
+          output: web,pdf
+
+        - title: HAAS CNC
+          url: haas_cnc.html
+          output: web,pdf
+
+        - title: Techno CNC
+          url: techno_cnc.html
+          output: web,pdf
+
+        - title: Preparing Neck Blanks
+          url: preparing_neck_blanks.html
+          output: web,pdf
+
+        - title: Preparing Fingerboard Blanks
+          url: preparing_fingerboard_blanks.html
+          output: web,pdf
+
+        - title: Preparing Bridge Blanks
+          url: preparing_bridge_blanks
+          output: web,pdf
+
+        - title: Edge Glueing
+          url: edge_glueing
+          output: web,pdf
+
+        - title: Thickness Sanding
+          url: thickness_sanding.html
+          output: web,pdf
+
+        - title: Body Layout
+          url: body_layout.html
+          output: web,pdf
+        
+        - title: Milling End of Day Check-list
+          url: milling_end_of_day_checklist.html
+          output: web,pdf
+
+        - title: Milling End of Week Check-list
+          url: milling_end_of_week_checklist.html
+          output: web,pdf
+
+      - title: Assembly
+        output: web,pdf
+        subfolderitems:
+
+        - title: Assembly Overview
+          url: assembly_overview.html
+          output: web,pdf
+
+        - title: Laser
+          url: laser.html
+          output: web,pdf
+
+        - title: Bend Block & Kerf
+          url: bend_block_and_kerf.html
+          output: web,pdf
+
+        - title: Dish Sanding
+          url: dish_sanding.html
+          output: web,pdf
+
+        - title: Manual Dish Sanding
+          url: manual_dish_sanding.html
+          output: web,pdf
+
+        - title: Bending Top (TRU Relief)
+          url: bending_top_tru_relief.html
+          output: web,pdf
+
+        - title: Bracing
+          url: bracing.html
+          output: web,pdf
+
+        - title: Bend Armrest
+          url: bend_armrest.html
+          output: web,pdf
+
+        - title: Bend Bevel
+          url: bend_bevel.html
+          output: web,pdf
+
+        - title: Bend Wood Binding
+          url: bend_wood_binding
+          output: web,pdf
+
+        - title: Body Assembly
+          url: body_assembly.html
+          output: web,pdf
+
+        - title: Binding
+          url: binding.html
+          output: web,pdf
+
+        - title: Purfling
+          url: purfling.html
+          output: web,pdf
+
+        - title: Armrest
+          url: armrest.html
+          output: web,pdf
+
+        - title: Bevel
+          url: bevel.html
+          output: web,pdf
+
+        - title: Preparing Headplates
+          url: preparing_headplates.html
+          output: web,pdf
+
+        - title: Preparing Fretboard
+          url: preparing_fretboard.html
+          output: web,pdf
+
+        - title: Neck to Body
+          url: neck_to_body.html
+          output: web,pdf
+
+        - title: Fretboard to Neck
+          url: fretboard_to_neck.html
+          output: web,pdf
+
+        - title: Turning Compressor On and Off
+          url: turning_compressor_on_and_off.html
+          output: web,pdf
+
+        - title: 2021 Platinum Inlays
+          url: 2021_platinum_inlays.html
+          output: web,pdf
+
+        - title: 2022 Platinum Inlays
+          url: 2022_platinum_inlays.html
+          output: web,pdf
+
+        - title: K-2 Inlay
+          url: k2_inlay.html
+          output: web,pdf
+
+        - title: K-3 Inlay
+          url: k3_inlay.html
+          output: web,pdf
+
+        - title: Willie K Inlays
+          url: willi_k_inlays.html
+          output: web,pdf
+
+        - title: Aldrine Inlays
+          url: aldrine_inlays.html
+          output: web,pdf
+
+        - title: Diamond Inlays
+          url: diamond_inlays.html
+          output: web,pdf
+        
+        - title: Assembly End of Day Check-list
+          url: milling_end_of_day_checklist.html
+          output: web,pdf
+
+        - title: Assembly End of Week Check-list
+          url: milling_end_of_week_checklist.html
+          output: web,pdf
+
+      - title: Finishing
+        output: web,pdf
+        subfolderitems:
+
+        - title: Finishing Overview
+          url: finishing_overview.html
+          output: web,pdf
+
+        - title: Finishing Layout
+          url: finishing_layout.html
+          output: web,pdf
+
+        - title: Prepsand
+          url: prepsand.html
+          output: web,pdf
+
+        - title: Porefill
+          url: porefill.html
+          output: web,pdf
+
+        - title: Scuff
+          url: scuff.html
+          output: web,pdf
+
+        - title: Spray
+          url: spray.html
+          output: web,pdf
+
+        - title: Sand and Buff
+          url: sand_and_buff.html
+          output: web,pdf
+
+        - title: Staining
+          url: staining.html
+          output: web,pdf
+
+        - title: Finishing End of Day Check-list
+          url: finishing_end_of_day_checklist.html
+          output: web,pdf
+
+        - title: Finishing End of Week Check-list
+          url: finishing_end_of_week_checklist.html
+          output: web,pdf
+
+      - title: Final Setup
+        output: web,pdf
+        subfolderitems:
+
+        - title: Final Setup Overview
+          url: final_setup_overview.html
+          output: web,pdf
+
+        - title: Bridge Glue-up
+          url: bridge_glue_up.html
+          output: web,pdf
+
+        - title: Final Setup
+          url: final_setup.html
+          output: web,pdf
+
+        - title: Final Setup End of Day Check-list
+          url: final_setup_end_of_day_checklist.html
+          output: web,pdf
+
+        - title: Final Setup End of Week Check-list
+          url: final_setup_end_of_week_checklist.html
+          output: web,pdf
+
+      - title: Quality Control
+        output: web,pdf
+        subfolderitems:
+
+        - title: Quality Control Overview
+          url: quality_control_overview.html
+          output: web,pdf
+
+        - title: Every Station QC
+          url: every_station_qc.html
+          output: web,pdf
+
+        - title: Final QC Process
+          url: final_qc_process.html
+          output: web,pdf
+
+        - title: Finish Batch in BC
+          url: finishing_batch_in_bc.html
+          output: web,pdf
+
+      - title: Machine Maintenance
+        output: web,pdf
+        subfolderitems:
+
+        - title: Buffing Wheel
+          url: buffing_wheel.html
+          output: web,pdf
+
+        - title: Compressor
+          url: compressor.html
+          output: web,pdf
+
+        - title: Downdraft Tables
+          url: downdraft_tables.html
+          output: web,pdf
+
+        - title: Dust Collector Dirty Room
+          url: dust_collector_dirty_room.html
+          output: web,pdf
+
+        - title: Dust Collector Grizzly
+          url: dust_collector_grizzly.html
+          output: web,pdf
+
+        - title: Dust Collector Cyclone
+          url: dust_collector_cyclone.html
+          output: web,pdf
+
+        - title: HAAS CNC VF2
+          url: haas_cnc_vf2.html
+          output: web,pdf
+
+        - title: HAAS CNC VF3
+          url: haas_cncn_vf3.html
+          output: web,pdf
+
+        - title: Router Bit Change
+          url: router_bit_change.html
+          output: web,pdf
+
+        - title: Horizantal Bandsaw
+          url: horizantal_bandsaw.html
+          output: web,pdf
+
+        - title: Vertical Bandsaw Bay 2
+          url: vertical_bandsaw_bay_2.html
+          output: web,pdf
+
+        - title: Vertical Bandsaw Bay 3
+          url: vertical_bandsaw_bay_3.html
+          output: web,pdf
+
+        - title: Big Laser
+          url: big_laser.html
+          output: web,pdf
+
+        - title: Small Laser
+          url: small_laser.html
+          output: web,pdf
+
+        - title: Lightbox
+          url: light_box.html
+          output: web,pdf
+
+        - title: Plainer
+          url: plainer.html
+          output: web,pdf
+
+        - title: Side Benders
+          url: side_benders.html
+          output: web,pdf
+
+        - title: Mechanical Sanders
+          url: mechanical_sanders.html
+          output: web,pdf
+
+        - title: Final Setup Vertical Bandsaws
+          url: final_setup_vertical_bandsaws.html
+          output: web,pdf
+
+      - title: Kanilea BC App
+        output: web,pdf
+        subfolderitems:
+
+        - title: How to Scan Barcodes
+          url: kanilea_bc_app.html
+          output: web,pdf
+
+  - title: Artist Relations
     output: web, pdf
 
     folderitems:
-    - title: Commenting on files
-      url: /mydoc_commenting_on_files.html
+    - title: Artist Requisition
+      url: artist_requisition.html
       output: web, pdf
 
-#    - title: Git collaboration
-#      url: /mydoc_git_collaboration
-#      output: web, pdf
+    - title: Artist Follow-up
+      url: artist_followup.html
+      output: web, pdf
 
-  - title: Warehouse
+  - title: Human Resources
     output: web, pdf
 
     folderitems:
-    - title: Build arguments
-      url: /mydoc_build_arguments.html
+    - title: Human Resources Overview
+      url: human_resources_overview.html
       output: web, pdf
+      
+      subfolders:
+      - title: Hiring an Employee
+        output: web,pdf
+        subfolderitems:
 
-    - title: Themes
-      url: /mydoc_themes.html
-      output: web, pdf
+        - title: Hiring Overview
+          url: hiring_overview.html
+          output: web,pdf
 
-    - title: Generating PDFs
-      url: /mydoc_generating_pdfs.html
-      output: web, pdf
+        - title: Indeed Job Postings
+          url: indeed_job_postings.html
+          output: web,pdf
 
-    - title: Help APIs and UI tooltips
-      url: /mydoc_help_api.html
-      output: web, pdf
+        - title: Craigslist Job Postings
+          url: craigslist_job_postings.html
+          output: web,pdf
 
-    - title: Search configuration
-      url: /mydoc_search_configuration.html
-      output: web, pdf
+        - title: Scheduling Interview
+          url: scheduling_interview.html
+          output: web,pdf
 
-    - title: iTerm profiles
-      url: /mydoc_iterm_profiles.html
-      output: web, pdf
+        - title: Conducting Interview
+          url: conducting_interview.html
+          output: web,pdf
 
-    - title: Pushing builds to server
-      url: /mydoc_push_build_to_server.html
-      output: web, pdf
+        - title: Employee Background Check
+          url: employee_background_check.html
+          output: web,pdf
 
-    - title: Publishing on Github Pages
-      url: /mydoc_publishing_github_pages.html
-      output: web, pdf
+        - title: Notifying Employee
+          url: notifying_employee.html
+          output: web,pdf
+
+      - title: Onboarding
+        output: web,pdf
+        subfolderitems:
+
+        - title: Onboarding Overview
+          url: onboarding_overview.html
+          output: web,pdf
+
+        - title: HR Orientation
+          url: hr_orientation.html
+          output: web,pdf
+
+        - title: Manager Orientation
+          url: manager_orientation.html
+          output: web,pdf
+
+        - title: Setting Up Medical
+          url: setting_up_medical.html
+          output: web,pdf
+
+        - title: Setting Up Dental
+          url: setting_up_dental.html
+          output: web,pdf
+
+        - title: Setting Up ADP
+          url: setting_up_adp.html
+          output: web,pdf
+
+        - title: Mask Fitting Appointment
+          url: mask_fitting_appointment.html
+          output: web,pdf
+
+        - title: Filing Employee Paperwork
+          url: filing_employee_paperwork.html
+          output: web,pdf
+
+        - title: Training
+          url: training.html
+          output: web,pdf
+
+      - title: Reviews
+        output: web,pdf
+        subfolderitems:
+
+        - title: Reviews Overview
+          url: reviews_overview.html
+          output: web,pdf
+
+        - title: 90 Day Review
+          url: 90_day_review.html
+          output: web,pdf
+
+        - title: Annual Review
+          url: annual_review.html
+          output: web,pdf
+
+      - title: Running Payroll
+        output: web,pdf
+        subfolderitems:
+
+        - title: Collecting and Reviewing Timesheets
+          url: collecting_and_reviewing_timesheets.html
+          output: web,pdf
+
+        - title: Running Payroll in ADP
+          url: running_payroll_in_adp.html
+          output: web,pdf
+
+        - title: Running an Off Cycle Payroll
+          url: running_an_off_cycle_payroll.html
+          output: web,pdf
+
+      - title: Disciplinary Action
+        output: web,pdf
+        subfolderitems:
+
+        - title: Disciplinary Action Overview
+          url: disciplinary_action_overview.html
+          output: web,pdf
+
+        - title: Mild DA
+          url: mild_da.html
+          output: web,pdf
+
+        - title: Severe DA
+          url: severe_da.html
+          output: web,pdf
+
+      - title: Job Descriptions
+        output: web,pdf
+        subfolderitems:
+
+        - title: Job Descriptions Overview
+          url: job_descriptions_overview.html
+          output: web,pdf
+
+        - title: Writing New Job Descriptions
+          url: writing_new_job_descriptions.html
+          output: web,pdf
+
+        - title: Updating Job Description
+          url: updating_job_description.html
+          putput: web,pdf
+
+      - title: Employment Law
+        output: web,pdf
+        subfolderitems:
+
+        - title: Employee Disputes
+          url: employee_disputes.html
+          output: web,pdf
+
+        - title: Employment Verification
+          url: employment_verification
+          output: web,pdf
+
+      - title: Updating Records
+        output: web,pdf
+        subfolderitems:
+
+        - title: Updating Records Overview
+          url: updating_records_overview.html
+          output: web,pdf
+
+        - title: Updating ADP
+          url: updating_adp.html
+          output: web,pdf
+
+        - title: Updating Employee Files
+          url: updating_employee_files.html
+          output: web,pdf
+
+      - title: OSHA
+        output: web,pdf
+        subfolderitems:
+
+        - title: Annual Walkthrough
+          url: annual_walkthrough.html
+          output: web,pdf
+
+        - title: Safety Compliance
+          url: safetly_compliance.html
+          output: web,pdf
+
+      - title: Company Events
+        output: web,pdf
+        subfolderitems:
+
+        - title: Christmas Event
+          url: christmas_event.html
+          output: web,pdf
+
+        - title: Annual Strategic Growth Plan
+          url: annual_strategic_growth_plan.html
+          output: web,pdf
+
+        - title: Fire Training
+          url: fire_training.html
+          output: web,pdf
+
+        - title: Visionary Speech
+          url: visionary_speech.html
+          output: web,pdf
+
+        - title: Monthly Luncheon
+          url: monthly_luncheon.html
+          output: web,pdf
+
+        - title: Monthly Company Update
+          url: monthly_company_update.html
+          output: web,pdf
+
+      - title: Employee Request
+        output: web,pdf
+        subfolderitems:
+
+        - title: Paid Time Off (PTO)
+          url: paid_time_off.html
+          output: web,pdf
+
+        - title: Temporary Disability Insurance (TDI)
+          url: temporary_disability_insurance.html
+          output: web,pdf
+
+        - title: Workers Compensation
+          url: workers_compensation.html
+          output: web,pdf
+
+        - title: Unemployment Claims
+          url: unemployment_claims.html
+          output: web,pdf
+
+      - title: Offboarding
+        output: web,pdf
+        subfolderitems:
+
+        - title: Offboarding Overview
+          url: offboarding_overview.html
+          output: web,pdf
+
+        - title: Canceling Kaiser
+          url: canceling_kaiser.html
+          output: web,pdf
+
+        - title: Canceling HDS
+          url: canceling_hds.html
+          output: web,pdf
+
+        - title: Udating Records in ADP
+          url: updating Records in ADP
+          output: web,pdf
+
+        - title: Updating Records in Business Central
+          url: updating_records_in_Business_Central.html
+          output: web,pdf
+
+  - title: Marketing
+    output: web,pdf
+
+    folderitems:
+    - title: Marketing Overview
+      url: marketing_overview.html
+      output: web,pdf
+
+      subfolders:
+      - title: Website
+        output: web,pdf
+        subfolderitems:
+
+        - title: Getting Started with the Website
+          url: getting_started_with_the_website.html
+          output: web,pdf
+
+        - title: Uploading Available Ukulele
+          url: uploading_available_ukulele.html
+          output: web,pdf
+
+      - title: Google
+        output: web,pdf
+        subfolderitems:
+
+        - title: Posting Google Ads
+          url: posting_google_ads.html
+          output: web,pdf
+
+      - title: Instagram
+        output: web,pdf
+        subfolderitems:
+
+        - title: Getting Started with IG
+          url: getting_started_with_ig.html
+          output: web,pdf
+
+        - title: Posting Images on IG
+          url: posting_images_on_ig.html
+          output: web,pdf
+
+        - title: Writing Captions in IG
+          url: writing_captions_in_ig.html
+          output: web,pdf
+
+        - title: Responding to Comments in IG
+          url: responding_to_comments_in_ig.html
+          output: web,pdf
+
+        - title: Posting Instagram Ads
+          url: posting_instragram_ads.html
+          output: web,pdf
+
+      - title: Facebook
+        output: web,pdf
+        subfolderitems:
+
+        - title: Getting Started with FB
+          url: getting_started_with_fb.html
+          output: web,pdf
+
+        - title: Posting Images in FB
+          url: posting_images_in_fb.html
+          output: web,pdf
+
+        - title: Responding to Comments in FB
+          url: responding_to_comments_in_fb.html
+          output: web,pdf
+
+        - title: Posting Ads in Facebook
+          url: posting_ads_in_facebook.html
+          output: web,pdf
+
+      - title: Wordpress Backend
+        output: web,pdf
+        subfolderitems:
+
+        - title: Logging into WP Backend
+          url: logging_into_wp_backend.html
+          output: web,pdf
+
+      - title: Cloudflare Backend
+        output: web,pdf
+        subfolderitems:
+
+        - title: Cloudflare Backend Log in
+          url: cloudflare_backend_log_in.html
+          output: web,pdf
+
+      - title: WP Engine Backend
+        output: web,pdf
+        subfolderitems:
+
+        - title: WP Engine Backend Log in
+          url: wp_engine_backend_log_in.html
+          output: web,pdf
+
+        - title: Creating a Sandbox in WP Engine
+          url: creating_a_sandbox_in_wp_engine.html
+          output: web,pdf
+
+      - title: Builders Experience
+        output: web,pdf
+        subfolderitems:
+
+        - title: Grabbing BE Videos
+          url: grabbing_be_videos.html
+          output: web,pdf
+
+        - title: Editing BE Videos
+          url: editing_be_videos.html
+          output: web,pdf
+
+        - title: Uploading BE Video to Flash Drive
+          url: uploading_be_video_to_flash_drive.html
+          output: web,pdf
+
+      - title: Orbit Vu
+        output: web,pdf
+        subfolderitems:
+
+        - title: Operating Orbit Vu
+          url: operating_orbitv_vu.html
+          output: web,pdf
 
   - title: Inventory
-    output: web, pdf
+    output: web,pdf
 
     folderitems:
-    - title: Knowledge-base layout
-      url: /mydoc_kb_layout.html
-      output: web, pdf
 
-    - title: Glossary layout
-      url: /mydoc_glossary.html
-      output: web, pdf
+    - title: Inventory Overview
+      url: inventory_overview.html
+      output: web,pdf
 
-    - title: FAQ layout
-      url: /mydoc_faq_layout.html
-      output: web, pdf
+    - title: Item Journal
+      url: item_journal.html
+      output: web,pdf
 
-    - title: Shuffle layout
-      url: /mydoc_shuffle.html
-      output: web, pdf
+    - title: Inventory Levels
+      url: inventory_levels.html
+      output: web,pdf
+
+    - title: EOY Inventory
+      url: eoy_inventory.html
+      output: web,pdf
+
+    - title: Quarterly Inventory
+      url: quarterly_inventory.html
+      output: web,pdf
+
+  - title: Purchasing
+    output: web,pdf
+
+    folderitems:
+
+    - title: Purchasing Overview
+      url: purchasing_overview.html
+      output: web,pdf
+
+    - title: Create Purchase Orders
+      url: create_purchase_orders.html
+      output: web,pdf
+    
+    - title: 1099 Purchase Invoices
+      url: 1099_purchase_invoices.html
+      output: web,pdf
+
+    - title: Setting up Vendor or 1099
+      url: setting_up_vendor_or_1099.html
+      output: web,pdf
+
+    - title: Posting a Purchase Document
+      url: posting_a_purchasing_document.html
+      output: web,pdf
+
+    - title: Edit Vendor Card
+      url: edit_vendor_card.html
+      output: web,pdf
+
+    - title: Vendor Shipment via Fed Ex
+      url: vendor_shipment_via_fed_ex.html
+      output: web,pdf
+
+  - title: Builders Experience
+    output: web,pdf
+
+    folderitems:
+
+    - title: Film BE Camera
+      url: film_camera.html
+      output: web,pdf
+
+    - title: Remote into BE Computer
+      url: remote_into_be_computer.html
+      output: web,pdf
+
+    - title: Adding a BE User
+      url: adding_a_be_user.html
+      output: web,pdf
+
+    - title: Change Record Time of Camera
+      url: change_record_time_of_camera.html
+      output: web,pdf
+
+  - title: Warehouse
+    output: web,pdf
+
+    folderitems:
+
+    - title: Warehouse Overview
+      url: Warehouse Overview
+      output: web,pdf
+
+      subfolders:
+      - title: Packaging and Shipping
+        output: web,pdf
+        subfolderitems:
+
+        - title: Fed Ex Toolkit
+          url: fed_ex_toolkit.html
+          output: web,pdf
+
+        - title: USPS Toolkit
+          url: usps_toolkit.html
+          output: web,pdf
+
+        - title: Boxing and Shipping
+          url: boxing_and_shipping.html
+          output: web,pdf
+
+      - title: Returns
+        output: web,pdf
+        subfolderitmes:
+
+        - title: Returns Overview
+          url: returns_overview.html
+          output: web,pdf
+
+        - title: Processing Returns
+          url: processing_returns.html
+          output: web,pdf
+
+        - title: Kanban Card for Repair
+          url: kanban_card_for_repair.html
+          output: web,pdf
+
+  - title: Kanile`a Docs
+    output: web,pdf
+
+    folderitems:
+
+    - title: Kanilea Docs Overview
+      url: kanilea_docs_overview.html
+      output: web,pdf
+
+      subfolders:
+      - title: Creating New Pages
+        output: web,pdf
+        subfolderitems:
+
+        - title: Writing in .md Files
+          url: writing_in_md_files.html
+          output: web,pdf
+
+        - title: Pushing Updates in Github
+          url: pushing_updates_in_github.html
+
+      - title: Editing Pages in Github
+        output: web,pdf
+        subfolderitems:
+
+        - title: Create Github Account
+          url: create_github_account.html
+          output: web,pdf
+
+        - title: Editing File and Create PR
+          url: editing_files_and_create_pr.html
+          output: web,pdf
+
+        - title: Imbed Video
+          url: imbed_video.html
+          output: web,pdf
 
   - title: Code Development
     output: web, pdf
 
     folderitems:
 
-    - title: Troubleshooting
-      url: /mydoc_troubleshooting.html
+    - title: Code Development Overview
+      url: code_development_overview.html
       output: web, pdf
+
+    - title: Code Development Request Form
+      url: code_development_request_form.html
+      output: web,pdf
+
+      subfolders:
+      - title: VS Code
+        output: web,pdf
+        subfolderitems:
+
+        - title: Download VS Code
+          url: download_vs_code.html
+          output: web,pdf
+
+      - title: Kanilea Docs
+        output: web,pdf
+        subfolderitems:
+
+        - title: Downloading Source code from Github
+          url: downloading_source_code_from_github.html
+          output: web,pdf
+
+  - title: EOY Closeout
+    output: web,pdf
+
+    folderitems:
+
+    - title: EOY Closeout Overview
+      url: eoy_closeout_overview.html
+      output: web,pdf
+
+      subfolders:
+      - title: Business Central
+        output: web,pdf
+        subfolderitems:
+
+        - title: BC EOY Closeout Overview
+          url: bc_eoy_closeout_overview.html
+          ouput: web,pdf
+
+        - title: AP Audit
+          url: ap_audit.html
+          output: web,pdf
+
+        - title: AR Audit
+          url: ar_audit.html
+          ouput: web,pdf
+
+        - title: Bank Account Audit
+          url: bank_account_audit.html
+          ouput: web,pdf
+
+      - title: 1099 Payments
+        output: web,pdf
+        subfolderitems:
+
+        - title: Setting up Vendor Cards
+          url: setting_up_vendor_cards.html
+          output: web,pdf
+
+        - title: Printing and Mailing 1099 Forms
+          url: printing_and_mailing_1099_forms.html
+          output: web,pdf
 
   - title: Tag archives
     output: web

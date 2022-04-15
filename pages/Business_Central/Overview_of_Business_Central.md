@@ -1,10 +1,10 @@
 ---
-title: Getting Started with Microsoft Dynamics
+title: Overview of Business Central
 tags: [getting_started]
 keywords:
 summary: "Your first page to read prior to jumping into Microsoft Dynamics Business Central"
 sidebar: mydoc_sidebar
-permalink: BC_GettingStarted.html
+permalink: overview_of_business_central.html
 folder: Business Central
 ---
 

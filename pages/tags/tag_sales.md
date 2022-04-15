@@ -1,5 +1,5 @@
 ---
-title: "Getting started pages"
+title: "Sales Pages"
 tagName: sales
 search: exclude
 permalink: tag_sales.html
